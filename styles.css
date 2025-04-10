@@ -243,7 +243,7 @@ li:hover .hover-text {
 }
 
 .test{
-    height: 1000px;
+    height: 400px;
 }
 
 
@@ -409,3 +409,49 @@ ul li {
         font-size: 11px;
     }
 }
+
+@media (max-width: 480px) {
+    .header ul {
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: 12px;
+    }
+  
+    .ouvrir-page {
+      padding: 5px 10px;
+      gap: 0px;
+    }
+  
+    .ouvrir-page li {
+      transform: scale(0.8); 
+    }
+  }
+
+  .language {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .language img {
+    width: 50px;
+  }
+
+  .language img:hover {
+    width: 58px;
+  }
+
+  @media (max-width: 480px) {
+    #floating-window,
+    .popup {
+      max-height: 85vh;
+      width: 95%;
+      padding: 10px;
+      overflow-y: auto;
+    }
+  }
+  
