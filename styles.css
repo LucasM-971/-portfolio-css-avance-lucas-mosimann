@@ -1,4 +1,4 @@
-body {
+body, html{
     padding: 0;
     margin: 0;
     height: 100vh;
@@ -331,26 +331,32 @@ ul li {
 
 @media (max-width: 480px) {
     .header {
-        height: 40px;
-        flex-direction: column;
-        padding: 5px;
+      height: 40px;
+      flex-direction: column;
+      padding: 5px;
     }
-
+  
     .language img {
-        width: 50px;
+      width: 50px;
     }
-
+  
     .main-section {
-        width: 95%;
-        padding: 10px;
-        min-height: 100vh;
-        overflow-y: scroll;
+      width: 90% !important;
+      padding: 8px;
+      height: 40vh !important;
+      max-height: 40vh !important;
+      overflow-y: auto !important;
     }
-
+  
     #floating-window {
-        width: 95%;
-        padding: 10px;
+      width: 90% !important;
+      padding: 8px;
+      height: 45vh !important;
+      max-height: 45vh !important;
+      overflow-y: auto !important;
     }
+  }
+  
 
     .ouvrir-page {
         bottom: 5px;
@@ -417,6 +423,8 @@ ul li {
       justify-content: center;
       font-size: 12px;
     }
+
+
   
     .ouvrir-page {
       padding: 5px 10px;
