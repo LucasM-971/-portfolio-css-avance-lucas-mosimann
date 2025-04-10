@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
     <header class="header">
@@ -20,139 +20,19 @@
             </li>
 
         </ul>
-        <img src="door_close_exit_quit_icon_219177.png"  class="sortir" onclick="window.location='acceuil.html'">
     </header>
-    <div class="img-background">
+    <img src="784535-mac-wallpaper-1920x1080-1920x1080-for-ipad-pro.jpg" alt="">
 
-  <img src="784535-mac-wallpaper-1920x1080-1920x1080-for-ipad-pro.jpg"></img>
-</div>
 
-<div id="popup" class="popup">
-    <div class="popup-header" id="drag-zone">
-        <span>Bienvenue 👋</span>
-        <button onclick="closePopup()" id="close-popup">✖</button>
+    <div class="button-container">
+        <button id="navigate-button">Changer de page</button>
     </div>
-    <div class="popup-body">
-        Bienvenue sur le site ! Tu peux déplacer cette boîte 🧱<br>
-        Voila mon portfolio tu peux découvrir certaines choses sur moi.
 
-    </div>
-</div>
-
-
-<section class="menu">
-
-        <ul class="ouvrir-page">
-            <li><img id="open-window" src="finder_macos_bigsur_icon_190173.png" alt="Ouvrir la page">  <span class="hover-text">Experience</span></li>
-
-            <li><a href="CV Lucas MOSIMANN.pdf" id="dl-cv" download>
-               <img src="macos_big_sur_download_folder_icon_186042.png" alt="Télécharger mon cv" id="open-window">
-               <span class="hover-text">Mon CV</span>
-            </a></li>
-            
-            <li><img id="open-window" src="notes_macos_bigsur_icon_189901.png" alt="Envoyer moi un message"><span class="hover-text">Ouvrir la page</span></li>
-            <li><img id="open-window" onclick="openPopup()" src="microsoft_onedrive_alt_macos_bigsur_icon_189976.png"><span class="hover-text">Tutorial</span></li>
-        </ul>
-        
-       
-
-            <section class="main-section" id="floating-window">
-     
-                <div id="header">Déplacer ici
-                    <button id="close-window">✖</button>
-                </div>
-    
-
-                        <h1>                  
-                            About
-                        </h1>
-                        <p> Je suis étudant en premiere année de Developpeur Web & Application dans l'école d'ingénieur <br>
-                           L'Efrei Paris. J'ai créé ce portefolio pour l'un de mes projets de cours (CSS avancée). <br>
-                           Vous trouverez ci dessous les language que je maitrise et mes projets/études.
-                        </p>
-                        <ul class="language">
-                            <li>
-                                <img src="python_18894.png" alt="">
-                            </li>
-                            <li>
-                                <img src="file_type_css_icon_130661.png" alt="">
-                            </li>
-                            <li>
-                                <img src="file_type_html_icon_130541.png" alt="">
-                            </li>
-                            <li>
-                                <img src="sql-file-black-rounded-rectangular-interface-symbol_icon-icons.com_57633.png" alt="">
-                            </li>
-                        </ul>
-
-
-                            <ul class="ul-qualif">
-                                <li>
-                                    <h3>
-                                        Developper Web & Application
-                                    </h3>
-                                    <h6>
-                                        Paris - Efrei
-                                    </h6>
-                                    <p>
-                                        2024 - 2027
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                       Lycée Général
-                                    </h3>
-                                    <h6>
-                                        Guadeloupe - Maths & SI
-                                    </h6>
-                                    <p>
-                                        2021 - 2024
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                      Site E-commerce
-                                    </h3>
-                                    <h6>
-                                        Efrei - Projet
-                                    </h6>
-                                    <p>
-                                        2025
-                                    </p>
-                                </li>
-                                <li>
-                                    <h3>
-                                        Reproduction Bugatti
-                                    </h3>
-                                    <h6>
-                                        Paris - Efrei
-                                    </h6>
-                                    <p>
-                                        2024
-                                    </p>
-                                </li>
-                            </ul>
-                            <div class="test">
-                                <ul class="language">
-                                    <li>
-                                        <a href="https://github.com/LucasM-971/" target="_blank">
-                                        <img src="Github_icon-icons.com_66788.png" alt="">
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/lucas-mosimann-0a6a0a331/" target="_blank">
-                                        <img src="linkedin_icon-icons.com_65929.png" alt="">
-                                    </li>
-
-                                </ul>
-        
-                            </div>
-                       </section>
-        
-        
-
-
-        
-</section>
 </body>
-<script src="script.js"></script>
+<script>
+ 
+    document.getElementById('navigate-button').addEventListener('click', function() {
+        window.location.href = 'main.html';
+    });
+</script>
 </html>
