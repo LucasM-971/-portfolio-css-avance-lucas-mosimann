@@ -6,6 +6,11 @@ body, html{
     overflow: hidden;
 }
 
+body.modal-open {
+    overflow: hidden; /* Empêche le scroll lorsque le modal est ouvert */
+}
+
+
 #open-window {
     width: 80px;
     height: auto;
@@ -303,6 +308,10 @@ ul li {
 }
 
 @media (max-width: 768px) {
+    body, html {
+        overflow: hidden; 
+        height: 100vh;
+    }
     .ul-qualif li {
         width: 45%;
         height: 180px;
