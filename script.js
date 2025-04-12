@@ -130,3 +130,21 @@ openFormBtn.addEventListener('click', () => {
 cancelBtn.addEventListener('click', () => {
     noteForm.style.display = 'none';
 });
+
+openFormBtn.addEventListener('click', () => {
+    noteForm.style.display = 'block'; // Affiche le formulaire
+    document.body.style.overflow = 'hidden'; // Empêche le défilement du body
+});
+
+cancelBtn.addEventListener('click', () => {
+    noteForm.style.display = 'none'; // Cache le formulaire
+    document.body.style.overflow = 'auto'; // Restaure le défilement du body
+});
+
+window.addEventListener('resize', () => {
+    if (window.innerHeight < document.documentElement.clientHeight) {
+        document.body.style.overflow = 'hidden'; // Empêche le défilement quand le clavier est visible
+    } else {
+        document.body.style.overflow = 'auto'; // Restaure le défilement normal
+    }
+});
