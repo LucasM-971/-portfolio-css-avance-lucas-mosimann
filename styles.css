@@ -6,11 +6,7 @@ body, html{
     overflow: hidden;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Assure une gestion propre des tailles */
-}
+
 
 
 body.modal-open {
@@ -27,6 +23,11 @@ body.modal-open {
     width: 80px;
     height: auto;
     
+}
+
+#open-projet{
+    width: 80px;
+    height: auto;
 }
 
 .ouvrir-page {
@@ -355,7 +356,7 @@ ul li {
     .language img {
         width: 50px;
     }
-  
+    
     .main-section {
         width: 90% !important;
         margin: 0;
@@ -364,7 +365,30 @@ ul li {
         max-height: 40vh !important;
         overflow-y: auto !important;
     }
-  
+    
+    .ouvrir-page{
+
+        width: 80%;
+ 
+        
+    }
+
+    
+    #open-form{
+        width: 60px;
+        height: auto; 
+    }
+
+    #open-projet{
+        width: 60px;
+        height: auto;
+    }
+    
+    #open-window{
+        width: 60px;
+        height: auto;
+    }
+
     #floating-window {
         width: 90% !important;
         padding: 8px;
@@ -373,6 +397,7 @@ ul li {
         overflow-y: auto !important;
     }
 }
+
 
 #note-container {
     background-color: #2C2C2E;
