@@ -166,18 +166,3 @@ window.addEventListener('resize', () => {
 });
 
 
-// Exemple en JavaScript
-if (window.location.pathname === '/page-avec-scroll') {
-    document.body.style.overflow = 'auto';  // Active le scroll sur cette page
-  } else {
-    document.body.style.overflow = 'hidden';  // Désactive le scroll sur les autres pages
-  }
-
-  
-  document.body.style.overflow = 'hidden';
-
-  // Ensuite, réactive le scroll uniquement quand l'élément avec scroll est visible
-  window.addEventListener('load', function() {
-    document.body.style.overflow = 'auto';  // Permet le scroll après que la page soit complètement chargée
-  });
-  
