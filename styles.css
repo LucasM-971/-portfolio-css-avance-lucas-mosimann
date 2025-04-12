@@ -19,6 +19,11 @@ body.modal-open {
 #open-form {
     width: 80px;
     height: auto;
+        position: fixed; /* Fixe le bouton à une position dans la fenêtre */
+        bottom: 20px;  /* Positionnez-le en bas de la page (ajustez selon votre besoin) */
+        left: 20px; /* Positionnez-le sur le côté gauche (ajustez selon votre besoin) */
+        z-index: 1000; /* Assurez-vous que le bouton reste au-dessus des autres éléments */
+    
 }
 
 .ouvrir-page {
