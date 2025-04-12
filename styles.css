@@ -19,10 +19,6 @@ body.modal-open {
 #open-form {
     width: 80px;
     height: auto;
-        position: fixed; /* Fixe le bouton à une position dans la fenêtre */
-        bottom: 20px;  /* Positionnez-le en bas de la page (ajustez selon votre besoin) */
-        left: 20px; /* Positionnez-le sur le côté gauche (ajustez selon votre besoin) */
-        z-index: 1000; /* Assurez-vous que le bouton reste au-dessus des autres éléments */
     
 }
 
@@ -380,6 +376,12 @@ ul li {
     max-width: 600px;
     display: none;
     margin: 20px;
+    position: fixed;  /* Fixe la position dans la fenêtre */
+    top: 50%;         /* Centrer verticalement */
+    left: 50%;  
+    transform: translate(-50%, -50%);  /* Ajuste l'élément pour qu'il soit parfaitement centré */
+    z-index: 9999; 
+    display: none; 
 }
 
 #note-form {
