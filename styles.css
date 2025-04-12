@@ -45,6 +45,7 @@ body.modal-open {
     z-index: 1000;
     backdrop-filter: blur(10px);
     transition: font-size 0.1s ease-in-out;
+    position: fixed;
 }
 
 .ouvrir-page li {
@@ -110,6 +111,7 @@ li:hover .hover-text {
     display: flex;
     justify-content: space-between;
     backdrop-filter: blur(10px);
+    position: fixed;
 }
 
 .header ul {
@@ -145,6 +147,7 @@ li:hover .hover-text {
     width: 100%;
     height: 100%;
     object-fit: cover;  
+    position: fixed;
 }
 
 #floating-window {
